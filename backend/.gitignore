@@ -1,0 +1,17 @@
+# Node.js
+node_modules/
+.env
+
+# IDE and Editor files
+.vscode/
+*.log
+.DS_Store
+*.swp
+*.swo
+
+# Git LFS
+.git/lfs/*
+
+# Miscellaneous
+*.bak
+*.tmp
