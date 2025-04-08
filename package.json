@@ -1,0 +1,32 @@
+{
+  "name": "holoquest-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for AI-powered 3D escape room experience",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "webpack serve --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "keywords": ["three.js", "escape room", "ai", "game"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow-models/hand-pose-detection": "^2.0.1",
+    "@tensorflow/tfjs": "3.3.0",
+    "@tensorflow/tfjs-core": "3.3.0",
+    "@tensorflow/tfjs-data": "3.3.0",
+    "handtrackjs": "0.1.5",
+    "three": "^0.160.0",
+    "seedrandom": "2.4.4",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
