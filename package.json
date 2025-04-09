@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "webpack serve --mode development --open",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "deploy": "vercel"
   },
   "keywords": ["three.js", "escape room", "ai", "game"],
   "author": "",
