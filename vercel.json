@@ -8,7 +8,7 @@
   ],
   "routes": [
     {
-      "src": "/(bundle.js|styles.css|assets/.*)",
+      "src": "/(bundle.js|styles.css|assets/.*\\.(png|jpg|jpeg|gif|svg|gltf|glb|mp3|wav))",
       "dest": "/dist/$1"
     },
     {
