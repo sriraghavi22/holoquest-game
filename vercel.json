@@ -13,6 +13,7 @@
         "use": "@vercel/static"
       }
     ],
+    "installCommand": "npm install --legacy-peer-deps",
     "routes": [
       {
         "src": "/(.*)",
