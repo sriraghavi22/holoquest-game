@@ -8,50 +8,12 @@
   ],
   "routes": [
     {
-      "src": "/(bundle\\.js|styles\\.css|assets/.*)",
+      "src": "/(bundle.js|styles.css|assets/.*)",
       "dest": "/dist/$1"
     },
     {
       "src": "/(.*)",
       "dest": "/dist/index.html"
-    }
-  ],
-  "headers": [
-    {
-      "source": "/assets/.*\\.(png|jpg|jpeg|gif)",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "image/$1"
-        }
-      ]
-    },
-    {
-      "source": "/assets/.*\\.mp3",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "audio/mpeg"
-        }
-      ]
-    },
-    {
-      "source": "/assets/.*\\.gltf",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "model/gltf+json"
-        }
-      ]
-    },
-    {
-      "source": "/assets/.*\\.glb",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "model/gltf-binary"
-        }
-      ]
     }
   ]
 }
